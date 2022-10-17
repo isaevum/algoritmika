@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    font-family: "Roboto Slab", serif;
+
+    header {
+        margin-top: 25px;
+        width: 60px;
+        border-top: 8px solid black;
+    }
+
+    .icons-box {
+        margin-top: 50px;
+
+        span {
+            margin: 0 25px 0 8px;
+        }
+    }
+
+    h1 {
+        font-size: 68px;
+    }
+
+    .top-flex-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .right {
+            width: 300px;
+            margin: auto;
+        }
+    }
+
+    .zritel {
+        background-color: #1e4681;
+        width: 30%;
+        margin: 40px auto;
+        padding: 15px;
+        border-radius: 1mm;
+        font-size: 16x;
+        color: white;
+        .and {
+            text-align: right;
+            margin-top: 5px;
+            font-size: 13px;
+        }
+    }
+    .kkurs {
+        display: flex;
+        justify-content: space-between;
+        .kurs {
+            width: 40%;
+            h1 {
+                font-size: 68px;
+            }
+            p {
+                margin-top: 30px;
+            }
+        }
+        .kurs-r {
+            margin: auto;
+        }
+    }
+    .cas {
+        display: flex;
+        align-items: center;
+        margin: 70px 0;
+        .ned {
+            width: 30%;
+        }
+        .obzanatiya {
+            width: 70%;
+            display: flex;
+            flex-wrap: wrap;
+            .zanatiyaf {
+                width: 30%;
+            }
+        }
+    }
+    .format {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 70px 0;
+        .verb {
+            width: 33%;
+            h3 {
+                color: #1e4681;
+            }
+        }
+    }
+    ul {
+        margin: 50px 0;
+        width: 35%;
+        li {
+            line-height: 150%;
+        }
+    }
+    .proq {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 70px 0;
+        .proq-box {
+            margin: 20px;
+            width: 30%;
+            background: #ffffff;
+            box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+            border-radius: 30px;
+            img {
+                width: 100%;
+            }
+            h3 {
+                padding: 10px 0 10px 20px;
+            }
+            p {
+                padding: 0 0 20px 20px;
+            }
+        }
+    }
+}
+.cel {
+    background-color: #efefef;
+    padding: 35px;
+    .comment {
+        background-color: white;
+        width: 53%;
+        padding: 30px;
+        background: #ffffff;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        margin: 60px 0;
+        .ekaterina {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            .ekat-r {
+                margin: auto;
+                h3 {
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+}
+.nacalo {
+    background-color: #9dc9c8;
+    .sent {
+        padding: 100px 0;
+        h1 {
+            font-size: 50px;
+        }
+        .st {
+            margin: 40px 0;
+            p:last-child {
+                font-size: 40px;
+            }
+        }
+        .uroven {
+            display: flex;
+            flex-wrap: wrap;
+            .prixod {
+                width: 30%;
+                p:last-child {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    .footerflex {
+        display: flex;
+        justify-content: space-between;
+        .top {
+            p {
+                width: 60px;
+                border-top: 8px solid white;
+                margin-bottom: 20px;
+            }
+            .icon-box {
+                i {
+                    font-size: 25px;
+                    margin-right: 15px;
+                }
+            }
+        }
+        .number {
+            .n-box {
+                i {
+                    font-size: 20px;
+                    margin: 10px 15px 10px 0;
+                }
+            }
+        }
+    }
+    .sinx {
+        p {
+            margin-top: 100px;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        .icons-box {
+            span {
+                font-size: 12px;
+                margin: 0 10px 0 8px;
+            }
+        }
+        h1 {
+            font-size: 30px;
+        }
+        .top-flex-box {
+            .right {
+                width: 140px;
+            }
+        }
+        .zritel {
+            width: 80%;
+            margin: 5px;
+        }
+        .kkurs {
+            display: block;
+            .kurs {
+                width: 100%;
+                h1 {
+                    font-size: 30px;
+                }
+            }
+        }
+        .cas {
+            .ned {
+                display: none;
+            }
+            .obzanatiya {
+                width: 100%;
+                .zanatiyaf {
+                    width: 50%;
+                }
+            }
+        }
+        .format {
+            margin: 30px 0;
+            .verb {
+                width: 100%;
+                margin: 20px 0;
+                p {
+                    margin: 10px 0;
+                }
+            }
+        }
+        ul {
+            width: 100%;
+        }
+        .proq {
+            .proq-box {
+                width: 100%;
+            }
+        }
+    }
+    .cel {
+        padding: 10px 0;
+        .comment {
+            width: 100%;
+        }
+        .ekaterina {
+            img {
+                width: 40%;
+            }
+            .ekat-r {
+                h3 {
+                    font-size: 15px;
+                }
+                img{
+                    width: 15%;
+                }
+
+            }
+        }
+    }
+    .nacalo{
+        .sent{
+            h1{
+                font-size: 30px;
+            }
+            .uroven{
+                .prixod{
+                    padding: 10px;
+                    width: 50%;
+                    p:last-child{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        .footerflex {
+            display: block;
+            .top {
+                .icon-box {
+                    margin-bottom: 30px;
+                    i {
+                        font-size: 25px;
+                        margin-right: 15px;
+                    }
+                }
+            }
+            .number {
+                .n-box {
+                    i {
+                        font-size: 20px;
+                        margin: 10px 15px 10px 0;
+                    }
+                }
+            }
+        }
+        .sinx {
+            p {
+                margin-top: 100px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .container{
+        .zritel{
+            width: 60%;
+        }
+    }
+}

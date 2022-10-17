@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  font-family: "Roboto Slab", serif;
+}
+.container header {
+  margin-top: 25px;
+  width: 60px;
+  border-top: 8px solid black;
+}
+.container .icons-box {
+  margin-top: 50px;
+}
+.container .icons-box span {
+  margin: 0 25px 0 8px;
+}
+.container h1 {
+  font-size: 68px;
+}
+.container .top-flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container .top-flex-box .right {
+  width: 300px;
+  margin: auto;
+}
+.container .zritel {
+  background-color: #1e4681;
+  width: 30%;
+  margin: 40px auto;
+  padding: 15px;
+  border-radius: 1mm;
+  font-size: 16x;
+  color: white;
+}
+.container .zritel .and {
+  text-align: right;
+  margin-top: 5px;
+  font-size: 13px;
+}
+.container .kkurs {
+  display: flex;
+  justify-content: space-between;
+}
+.container .kkurs .kurs {
+  width: 40%;
+}
+.container .kkurs .kurs h1 {
+  font-size: 68px;
+}
+.container .kkurs .kurs p {
+  margin-top: 30px;
+}
+.container .kkurs .kurs-r {
+  margin: auto;
+}
+.container .cas {
+  display: flex;
+  align-items: center;
+  margin: 70px 0;
+}
+.container .cas .ned {
+  width: 30%;
+}
+.container .cas .obzanatiya {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .cas .obzanatiya .zanatiyaf {
+  width: 30%;
+}
+.container .format {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 70px 0;
+}
+.container .format .verb {
+  width: 33%;
+}
+.container .format .verb h3 {
+  color: #1e4681;
+}
+.container ul {
+  margin: 50px 0;
+  width: 35%;
+}
+.container ul li {
+  line-height: 150%;
+}
+.container .proq {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 70px 0;
+}
+.container .proq .proq-box {
+  margin: 20px;
+  width: 30%;
+  background: #ffffff;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.container .proq .proq-box img {
+  width: 100%;
+}
+.container .proq .proq-box h3 {
+  padding: 10px 0 10px 20px;
+}
+.container .proq .proq-box p {
+  padding: 0 0 20px 20px;
+}
+
+.cel {
+  background-color: #efefef;
+  padding: 35px;
+}
+.cel .comment {
+  background-color: white;
+  width: 53%;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  margin: 60px 0;
+}
+.cel .comment .ekaterina {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.cel .comment .ekaterina .ekat-r {
+  margin: auto;
+}
+.cel .comment .ekaterina .ekat-r h3 {
+  margin: 10px 0;
+}
+
+.nacalo {
+  background-color: #9dc9c8;
+}
+.nacalo .sent {
+  padding: 100px 0;
+}
+.nacalo .sent h1 {
+  font-size: 50px;
+}
+.nacalo .sent .st {
+  margin: 40px 0;
+}
+.nacalo .sent .st p:last-child {
+  font-size: 40px;
+}
+.nacalo .sent .uroven {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nacalo .sent .uroven .prixod {
+  width: 30%;
+}
+.nacalo .sent .uroven .prixod p:last-child {
+  font-size: 14px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 40px 0;
+}
+footer .footerflex {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footerflex .top p {
+  width: 60px;
+  border-top: 8px solid white;
+  margin-bottom: 20px;
+}
+footer .footerflex .top .icon-box i {
+  font-size: 25px;
+  margin-right: 15px;
+}
+footer .footerflex .number .n-box i {
+  font-size: 20px;
+  margin: 10px 15px 10px 0;
+}
+footer .sinx p {
+  margin-top: 100px;
+}
+
+@media (max-width: 576px) {
+  .container .icons-box span {
+    font-size: 12px;
+    margin: 0 10px 0 8px;
+  }
+  .container h1 {
+    font-size: 30px;
+  }
+  .container .top-flex-box .right {
+    width: 140px;
+  }
+  .container .zritel {
+    width: 80%;
+    margin: 5px;
+  }
+  .container .kkurs {
+    display: block;
+  }
+  .container .kkurs .kurs {
+    width: 100%;
+  }
+  .container .kkurs .kurs h1 {
+    font-size: 30px;
+  }
+  .container .cas .ned {
+    display: none;
+  }
+  .container .cas .obzanatiya {
+    width: 100%;
+  }
+  .container .cas .obzanatiya .zanatiyaf {
+    width: 50%;
+  }
+  .container .format {
+    margin: 30px 0;
+  }
+  .container .format .verb {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .container .format .verb p {
+    margin: 10px 0;
+  }
+  .container ul {
+    width: 100%;
+  }
+  .container .proq .proq-box {
+    width: 100%;
+  }
+  .cel {
+    padding: 10px 0;
+  }
+  .cel .comment {
+    width: 100%;
+  }
+  .cel .ekaterina img {
+    width: 40%;
+  }
+  .cel .ekaterina .ekat-r h3 {
+    font-size: 15px;
+  }
+  .cel .ekaterina .ekat-r img {
+    width: 15%;
+  }
+  .nacalo .sent h1 {
+    font-size: 30px;
+  }
+  .nacalo .sent .uroven .prixod {
+    padding: 10px;
+    width: 50%;
+  }
+  .nacalo .sent .uroven .prixod p:last-child {
+    font-size: 12px;
+  }
+  footer .footerflex {
+    display: block;
+  }
+  footer .footerflex .top .icon-box {
+    margin-bottom: 30px;
+  }
+  footer .footerflex .top .icon-box i {
+    font-size: 25px;
+    margin-right: 15px;
+  }
+  footer .footerflex .number .n-box i {
+    font-size: 20px;
+    margin: 10px 15px 10px 0;
+  }
+  footer .sinx p {
+    margin-top: 100px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .container .zritel {
+    width: 60%;
+  }
+}/*# sourceMappingURL=style.css.map */
